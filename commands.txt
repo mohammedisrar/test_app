@@ -1,0 +1,500 @@
+   55  ls
+   56  cd ..
+   57  pwd
+   58  cd Ongoing classes
+   59  cd 'Ongoing classes'
+   60  cd ..
+   61  mkdir test_app
+   62  ls
+   63  cd test_app
+   64  pwd
+   65  mkdir f1
+   66  mkdir f2 f3 f4 f5
+   67  history
+   68  clear
+   69  rmdir f5
+   70  rmdir f4 f3 f2
+   71  rmdir f1
+   72  rm -r f1
+   73  mkdir f1 f2 f3 f4 f4
+   74  rmdir f4 f3 f2
+   75  rm -r f1
+   76  touch f1.txt
+   77  touch f2.py f3.sql
+   78  touch f4.txt
+   79  cat f1.txt
+   80  ls
+   81  nano f1.txt
+   82  nano f1.txt
+   83  nano f1.txt
+   84  nano f1.txt
+   85  nano f1.txt
+   86  nano f1.txt
+   87  nano f1.txt
+   88  cat f1.txt
+   89  history
+   90  ls
+   91  nano f4.txt
+   92  nano f4.txt
+   93  pwd
+   94  cd ..
+   95  cd test_app/
+   96  pwd
+   97  clear
+   98  pwd
+   99  git init
+  100  ls -a
+  101  ls
+  102  git status
+  103  git add f1.txt
+  104  git status
+  105  git rm --cached f1.txt
+  106  git status
+  107  git add f1.txt f2.py
+  108  git status
+  109  git rm --cached f1.txt f2.py
+  110  git status
+  111  git add .
+  112  git status
+  113  git rm --cached .
+  114  git rm -r --cached .
+  115  git status
+  116  clear
+  117  git config --list
+  118  git config --help
+  119  git config --list
+  120  git remote -v
+  121  git remote add origin https://github.com/mohammedisrar/test_app.git
+  122  git remote -v
+  123  git config --list
+  124  git remote -v
+  125  ls 
+  126  git config --list
+  127  git remote -v
+  128  git status
+  129  git add .
+  130  git status
+  131  git commit -m 'First commit'
+  132  git status
+  133  git config --list
+  134  git branch -m master main
+  135  git branch --list
+  136  git push -f origin main
+  137  git push -f origin main
+  138  git remote -v
+  139  ls
+  140  touch f5.py
+  141  git status
+  142  git add .
+  143  git commit -m 'Second commit'
+  144  git push origin main
+  145  ls
+  146  git pull origin main
+  147  ls
+  148  git checkout -b dev
+  149  git checkout main
+  150  git checkout dev
+  151  touch f7.py
+  152  ls
+  153  git add .
+  154  git commit -m 'F7 with nre branch'
+  155  git push origin dev
+  156  git pull origin main
+  157  ls
+  158  git status
+  159  git push origin dev
+  160  touch f9.txt f10.txt f11.py
+  161  git add .
+  162  git commit -m 'New files'
+  163  git push origin dev
+  164  git pull origin dev
+  165  git pull origin main
+  166  git merge --help
+  167  git checkout main
+  168  git pull origin main
+  169  touch f12.py f13.py f14.py
+  170  git add .
+  171  git commit -m 'New_file'
+  172  git push origin main
+  173  git checkout dev
+  174  git checkout main
+  175  git checkout prod
+  176  git checkout -b prod
+  177  ls
+  178  git checkout main
+  179  git pull
+  180  git pull origin main
+  181  touch new_file.txt
+  182  git add.
+  183  git add .
+  184  git commit -m 'File'
+  185  ls
+  186  git push origin main
+  187  ls
+  188  mkdir f1 f2
+  189  ls
+  190  git log
+  191  git log
+  192  git revert fa9d159f07dad8abd22f90c3a543840a9458902c
+  193  ls
+  194  pwd
+  195  ls
+  196  cd Classes
+  197  pwd
+  198  ls
+  199  cd ..
+  200  ls
+  201  git Ongoing classes
+  202  cd Ongoing classes
+  203  cd 'Ongoing classes'
+  204  cd ..
+  205  ls
+  206  mkdir test_app
+  207  cd test_app
+  208  mkdir f1 f2 f3 f4 f5
+  209  rmdir f5
+  210  rmdir f4 f3 f2
+  211  ls
+  212  cd f1
+  213  cd ..
+  214  rmdir f1
+  215  rm -r f1
+  216  mkdir f1
+  217  mkdir f2 f3 f4
+  218  rmdir f1
+  219  rmdir f2 f3
+  220  rmdir f4
+  221  rm -r f4
+  222  touch f1.py f2.sql f3.txt
+  223  cat f3.txt
+  224  nano f1.py
+  225  nano f1.py
+  226  cat f1.py
+  227  nano f1.py
+  228  nano f1.py
+  229  nano f1.py
+  230  cat f1.py
+  231  pwd
+  232  pwd
+  233  git init
+  234  ls -a
+  235  rm -r .git
+  236  ls
+  237  ls -a
+  238  git init
+  239  git config --global --list
+  240  git config --list
+  241  git remote -v
+  242  git remote add origin https://github.com/mohammedisrar/test_app.git
+  243  git remote -v
+  244  ls
+  245  git add f1.py
+  246  git status
+  247  git rm --cached f1.py
+  248  git status
+  249  git add f1.py f2.sql
+  250  git status
+  251  git rm --cached f1.py f2.sql
+  252  git status
+  253  git add .
+  254  git status
+  255  git status
+  256  ls
+  257  git rm --cached .
+  258  git rm -r --cached .
+  259  git status
+  260  git add .
+  261  git status
+  262  git commit -m 'First commit'
+  263  git status
+  264  git branch -m master main
+  265  git push -f origin main
+  266  git push -f origin main
+  267  git checkout -b dev
+  268  ls
+  269  touch f4.py
+  270  ls
+  271  git status
+  272  git add .
+  273  git commit -m 'New file created'
+  274  git push origin dev
+  275  nano f4.py
+  276  git add .
+  277  git commit -m 'New file changes '
+  278  git push origin dev
+  279  git checkout main
+  280  git pull origin main
+  281  ls
+  282  git checkout -b qa
+  283  nano f4.py
+  284  git add .
+  285  git commit -m 'new_chge'
+  286  git push origin qa
+  287  git revert 
+  288  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  289  $ git status
+  290  On branch master
+  291  No commits yet
+  292  Changes to be committed:
+  293    (use "git rm --cached <file>..." to unstage)
+  294          new file:   f1.py
+  295          new file:   f2.sql
+  296          new file:   f3.txt
+  297  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  298  $ ls
+  299  f1.py  f2.sql  f3.txt
+  300  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  301  $ git rm --cached .
+  302  fatal: not removing '.' recursively without -r
+  303  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  304  $ git rm -r --cached .
+  305  rm 'f1.py'
+  306  rm 'f2.sql'
+  307  rm 'f3.txt'
+  308  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  309  $ git status
+  310  On branch master
+  311  No commits yet
+  312  Untracked files:
+  313    (use "git add <file>..." to include in what will be committed)
+  314          f1.py
+  315          f2.sql
+  316          f3.txt
+  317  nothing added to commit but untracked files present (use "git add" to track)
+  318  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  319  $ git add .
+  320  warning: in the working copy of 'f1.py', LF will be replaced by CRLF the next time Git touches it
+  321  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  322  $ git status
+  323  On branch master
+  324  No commits yet
+  325  Changes to be committed:
+  326    (use "git rm --cached <file>..." to unstage)
+  327          new file:   f1.py
+  328          new file:   f2.sql
+  329          new file:   f3.txt
+  330  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  331  $ git commit -m 'First commit'
+  332  [master (root-commit) 6ef559d] First commit
+  333   3 files changed, 6 insertions(+)
+  334   create mode 100644 f1.py
+  335   create mode 100644 f2.sql
+  336   create mode 100644 f3.txt
+  337  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  338  $ git status
+  339  On branch master
+  340  nothing to commit, working tree clean
+  341  MIT@MIT MINGW64 ~/Desktop/test_app (master)
+  342  $ git branch -m master main
+  343  MIT@MIT MINGW64 ~/Desktop/test_app (main)
+  344  $ git push -f origin main
+  345  remote: Invalid username or password.
+  346  fatal: Authentication failed for 'https://github.com/mohammedisrar/test_app.git/'
+  347  MIT@MIT MINGW64 ~/Desktop/test_app (main)
+  348  $ git push -f origin main
+  349  Enumerating objects: 5, done.
+  350  Counting objects: 100% (5/5), done.
+  351  Delta compression using up to 4 threads
+  352  Compressing objects: 100% (2/2), done.
+  353  Writing objects: 100% (5/5), 341 bytes | 85.00 KiB/s, done.
+  354  Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+  355  To https://github.com/mohammedisrar/test_app.git
+  356   * [new branch]      main -> main
+  357  MIT@MIT MINGW64 ~/Desktop/test_app (main)
+  358  $ git checkout -b dev
+  359  Switched to a new branch 'dev'
+  360  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  361  $ ls
+  362  f1.py  f2.sql  f3.txt
+  363  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  364  $ touch f4.py
+  365  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  366  $ ls
+  367  f1.py  f2.sql  f3.txt  f4.py
+  368  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  369  $ git status
+  370  On branch dev
+  371  Untracked files:
+  372    (use "git add <file>..." to include in what will be committed)
+  373          f4.py
+  374  nothing added to commit but untracked files present (use "git add" to track)
+  375  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  376  $ git add .
+  377  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  378  $ git commit -m 'New file created'
+  379  [dev f5a01e6] New file created
+  380   1 file changed, 0 insertions(+), 0 deletions(-)
+  381   create mode 100644 f4.py
+  382  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  383  $ git push origin dev
+  384  Enumerating objects: 3, done.
+  385  Counting objects: 100% (3/3), done.
+  386  Delta compression using up to 4 threads
+  387  Compressing objects: 100% (2/2), done.
+  388  Writing objects: 100% (2/2), 259 bytes | 259.00 KiB/s, done.
+  389  Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+  390  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  391  remote:
+  392  remote: Create a pull request for 'dev' on GitHub by visiting:
+  393  remote:      https://github.com/mohammedisrar/test_app/pull/new/dev
+  394  remote:
+  395  To https://github.com/mohammedisrar/test_app.git
+  396   * [new branch]      dev -> dev
+  397  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  398  $ nano f4.py
+  399  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  400  $ git add .
+  401  warning: in the working copy of 'f4.py', LF will be replaced by CRLF the next time Git touches it
+  402  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  403  $ git commit -m 'New file changes '
+  404  [dev 54be4b2] New file changes
+  405   1 file changed, 1 insertion(+)
+  406  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  407  $ git push origin dev
+  408  Enumerating objects: 5, done.
+  409  Counting objects: 100% (5/5), done.
+  410  Delta compression using up to 4 threads
+  411  Compressing objects: 100% (2/2), done.
+  412  Writing objects: 100% (3/3), 281 bytes | 140.00 KiB/s, done.
+  413  Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+  414  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  415  To https://github.com/mohammedisrar/test_app.git
+  416     f5a01e6..54be4b2  dev -> dev
+  417  MIT@MIT MINGW64 ~/Desktop/test_app (dev)
+  418  $ git checkout main
+  419  Switched to branch 'main'
+  420  MIT@MIT MINGW64 ~/Desktop/test_app (main)
+  421  $ git pull origin main
+  422  remote: Enumerating objects: 2, done.
+  423  remote: Counting objects: 100% (2/2), done.
+  424  remote: Compressing objects: 100% (2/2), done.
+  425  remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+  426  Unpacking objects: 100% (2/2), 1.75 KiB | 112.00 KiB/s, done.
+  427  From https://github.com/mohammedisrar/test_app
+  428   * branch            main       -> FETCH_HEAD
+  429     6ef559d..60de478  main       -> origin/main
+  430  Updating 6ef559d..60de478
+  431  Fast-forward
+  432   f4.py | 1 +
+  433   1 file changed, 1 insertion(+)
+  434   create mode 100644 f4.py
+  435  MIT@MIT MINGW64 ~/Desktop/test_app (main)
+  436  $ ls
+  437  f1.py  f2.sql  f3.txt  f4.py
+  438  MIT@MIT MINGW64 ~/Desktop/test_app (main)
+  439  $ git checkout -b qa
+  440  Switched to a new branch 'qa'
+  441  MIT@MIT MINGW64 ~/Desktop/test_app (qa)
+  442  $ nano f4.py
+  443  MIT@MIT MINGW64 ~/Desktop/test_app (qa)
+  444  $ git add .
+  445  MIT@MIT MINGW64 ~/Desktop/test_app (qa)
+  446  $ git commit -m 'new_chge'
+  447  [qa ceba69b] new_chge
+  448   1 file changed, 1 insertion(+)
+  449  MIT@MIT MINGW64 ~/Desktop/test_app (qa)
+  450  $ git push origin qa
+  451  Enumerating objects: 5, done.
+  452  Counting objects: 100% (5/5), done.
+  453  Delta compression using up to 4 threads
+  454  Compressing objects: 100% (2/2), done.
+  455  Writing objects: 100% (3/3), 284 bytes | 142.00 KiB/s, done.
+  456  Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+  457  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  458  remote:
+  459  remote: Create a pull request for 'qa' on GitHub by visiting:
+  460  remote:      https://github.com/mohammedisrar/test_app/pull/new/qa
+  461  remote:
+  462  To https://github.com/mohammedisrar/test_app.git
+  463   * [new branch]      qa -> qa
+  464  MIT@MIT MINGW64 ~/Desktop/test_app (qa)
+  465  $ git revert
+  466  wq
+  467  ls
+  468  git status
+  469  git log
+  470  git --version
+  471  pwd
+  472  ls
+  473  cd Material
+  474  pwd
+  475  cd ..
+  476  ls
+  477  cd Ongoing classes
+  478  cd 'Ongoing classes'
+  479  cd ..
+  480  mkdir
+  481  mkdir test_app
+  482  cd test_app/
+  483  ls
+  484  pwd
+  485  mkdir f1 f2 f3 f4
+  486  rmdir f4
+  487  rmdir f3 f2 f1
+  488  mkdir f1
+  489  rmdir f1
+  490  rm -r f1
+  491  touch f1.py
+  492  touch f2.sql f3.txt
+  493  cat f3.txt
+  494  nano f3.txt
+  495  nano f3.txt
+  496  clear
+  497  history
+  498  clear
+  499  clear
+  500  nano f3.txt
+  501  ls
+  502  cd ..
+  503  cd -
+  504  clear
+  505  ls
+  506  cd ..
+  507  cd -
+  508  clear
+  509  pwd
+  510  clear
+  511  pwd
+  512  git init
+  513  ls -a
+  514  rm -r .git
+  515  git init
+  516  ls -a
+  517  git config --list
+  518  clear
+  519  git config --list
+  520  git remote -v
+  521  git remote add origin https://github.com/mohammedisrar/test_app.git
+  522  git remote -v
+  523  ls
+  524  git status
+  525  clear
+  526  git status
+  527  git add f3.txt
+  528  git status
+  529  git rm --cached f3.txt
+  530  git status
+  531  git add f1.py f2.sql
+  532  git status
+  533  git rm --cached f1.py f2.sql
+  534  git status
+  535  git add .
+  536  git status
+  537  clear
+  538  ls
+  539  touch f4.txt f5.sql
+  540  git status
+  541  git rm -r --cached .
+  542  git status
+  543  git add .
+  544  git status
+  545  git commit -m 'First commit'
+  546  git status
+  547  git branch -m master main
+  548  git branch
+  549  ls
+  550  git push -f origin main
+  551  git push -f origin main
+  552  git push -f origin main
+  553  history
+  554  history >> commands.txt
